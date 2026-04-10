@@ -20,7 +20,6 @@ var svg = d3.select("#chart-area").append("svg")
 	.attr("width", width)
 	.attr("height", height);
 
-// I don't have to calculate all the margins manually, using a group.
 var groupAcanvas = svg.append("g")
 	.attr("transform", `translate(${margin.left}, ${margin.top})`);
 
